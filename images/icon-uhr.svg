@@ -1,0 +1,17 @@
+<!--Scalable Vector Graphic-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <radialGradient id="g" cx="35%" cy="30%" r="80%">
+      <stop offset="0" stop-color="#FFE766"/><stop offset="0.6" stop-color="#FFD400"/><stop offset="1" stop-color="#D6B400"/>
+    </radialGradient>
+    <filter id="s" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="2" stdDeviation="1.4" flood-color="#2A1446" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  <g filter="url(#s)">
+    <circle cx="32" cy="31" r="27" fill="url(#g)" stroke="#2A1446" stroke-width="3"/>
+    <circle cx="32" cy="31" r="19" fill="#FFFBE6" stroke="#2A1446" stroke-width="2"/>
+    <path d="M32 19v13l9 6" fill="none" stroke="#2A1446" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="32" cy="31" r="2.5" fill="#8A4DFF"/>
+  </g>
+</svg>
